@@ -1,0 +1,3 @@
+-Moved style in html docs to gutenberg.css
+-Changed hyperlink urls
+-Removed border of table above cover images and gave it id = "altTable"
