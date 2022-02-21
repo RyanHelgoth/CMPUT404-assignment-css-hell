@@ -7,7 +7,7 @@ body { margin-left: 20%;
     margin-right: 20%;
     text-align: justify; 
     /* https://everytexture.com/everytexture-com-stock-paper-texture-00081/ */
-    background-image: url("pageTexture.jpg");
+    background-image: url("./Images/pageTexture.jpg");
     background-repeat: repeat-x repeat-y;
 
 }
