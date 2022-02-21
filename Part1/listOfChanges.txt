@@ -1,4 +1,0 @@
--Moved some style in html docs to gutenberg.css
--Changed hyperlink urls for chapters
--Changed image urls
--Removed border of table above cover images and gave it id = "altTable"

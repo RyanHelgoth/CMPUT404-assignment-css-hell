@@ -1,15 +1,16 @@
 
 /*
-Style taken from project gutenberg book and modified by Ryan Helgoth
+Style taken from project gutenberg book:
+"The Project Gutenberg Book of The Adventures of Sherlock Holmes, by Arthur Conan Doyle"
+and was modified by Ryan Helgoth.
 */
 
 body { margin-left: 20%;
     margin-right: 20%;
     text-align: justify; 
-    /* https://everytexture.com/everytexture-com-stock-paper-texture-00081/ */
+    /* Background image source: https://everytexture.com/everytexture-com-stock-paper-texture-00081/ */
     background-image: url("./Images/pageTexture.jpg");
     background-repeat: repeat-x repeat-y;
-
 }
 
 h1, h2, h3, h4, h5 {
@@ -29,8 +30,8 @@ h1 {
     word-spacing: 0.1em;
     text-indent: 0em;
     font-style: italic;
-
 }
+
 h2 {font-size: 150%; margin-top: 2em; margin-bottom: 1em;}
 h3 {font-size: 130%; margin-top: 1em;}
 h4 {font-size: 120%;}
@@ -50,7 +51,6 @@ margin-top: 0.5em;
 margin-bottom: 0.5em; 
 font-family: Georgia, serif;
 font-size: 1.5em;
-
 }
 
 .p2 {margin-top: 2em;}
@@ -88,7 +88,6 @@ div.fig { display:block;
 a:link {color:rgb(155, 119, 53); text-decoration:none}
 a:visited {color:rgb(119, 70, 24); text-decoration:none}
 a:hover {color:rgb(163, 75, 40)}
-
 
 img {
     border: 0.5em solid black;
