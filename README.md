@@ -22,3 +22,11 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Part 1 HTML changes
+===================
+-Moved style at start of HTML docs to gutenberg.css (gutenberg.css is a modified version of the CSS from the Sherlock book).
+-Changed hyperlink urls for chapters
+-Changed image urls
+-Removed "border" in table tag above cover images and gave it id = "altTable"
+
+
