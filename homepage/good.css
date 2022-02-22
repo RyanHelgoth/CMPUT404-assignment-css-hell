@@ -17,7 +17,8 @@ h1 {
 
 
 #page {
-    
+    position: relative;
+    overflow: hidden;
     height: 100%;
     width: 100%;
 }
@@ -25,9 +26,11 @@ h1 {
 
 
 #header {
+    display: inline-block;
     background-color: rgb(48, 48, 48);
     border: 5px solid black;
     width: 100%;
+    height: auto;
     text-align: center;
 }
 
