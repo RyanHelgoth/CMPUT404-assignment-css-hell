@@ -7,58 +7,73 @@ html, body {
     margin: 0px;
     height: 100%;
     width: 100%;
-    border: 5px solid black;
 }
 
 
 
-h1 {
-    color: white;
-}
 
 h3, h4, h5 {
     text-align: center;
 }
 
-#flexCols {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-}
 
 
 #flexRows {
+    position: relative;
     display: flex;
     height: 100%;
     width: 100%;
 
 }
 
-
+/* rgb(34, 101, 146); */
 #header {
-    background-color: rgb(48, 48, 48);
-    border: 5px solid black;
+    /*
+    margin-top: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border: 2px solid rgb(34, 101, 146);
+    border-radius: 5px;
+    */
+    border-top: 5px solid rgb(40, 40, 40);
+    border-bottom: 8px double rgb(189, 189, 189);
+    background-color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
     text-align: center;
+
 }
 
 #sidebar {
+    border: 2px solid rgb(189, 189, 189);
+    border-width: 2px 2px 0px 0px;
+    background-color: rgb(40, 40, 40);
+    color: white;
     position: relative;
-    flex: 0;
-    border: 5px solid black;
-
-    
-    
-    
 
 }
 
 #sections {
+    background-color: rgb(60, 60, 60);
+    color: white;
     text-align: center;
     position: relative;
     flex: 1;
-    border: 5px solid black;
-
-    
+    overflow: auto;
 }
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    border: solid whitesmoke;
+}
+
+
 
