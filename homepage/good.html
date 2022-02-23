@@ -35,10 +35,10 @@
 
             <div id="sections">
                 <div id="header"> 
-                    <h1>Ryan Helgoth</h1>
+                    <h1 id="topBar">Ryan Helgoth</h1>
                 </div>
                 <div class="content" id="about">
-                    <h2>Who I Am</h2>
+                    <h2 class="contentHeader">Who I Am</h2>
                     <img id="me" src="./Images/me.jpg" alt="Picture of myself">
                     <p id="bio">I am a computing science student at University of Alberta who is working towards becoming a software developer. 
                         In my free time I love to play video games with my friends. 
@@ -48,40 +48,46 @@
                 </div>
 
                 <div class="content" id="history">
-                    <h2>Professional History</h2>
+                    <h2 class="contentHeader">Professional History</h2>
                     <div id="projects">
-                        <h3>Projects</h3>
-                        <h4>Speed Sail</h4>
-                        <p>Google Chrome extension made using JavaScript, HTML, and CSS. Allows
-                            users to change the playback speed of videos and audio clips in the current
-                            tab. Hit a peak of 30+ weekly users. View the side bar on the left for links to this project.
-                        </p>
-                        <h4>Inhouse Bot</h4>
-                        <p>Discord bot made using Python. Helps with setting up video game matches
-                            with friends by making randomized teams and moving users to team voice
-                            channels. View the side bar on the left for links to this project.
-                        </p>
+                        <h3 class="subHeader">Projects</h3>
+                        <div class="historyItem">
+                            <h4 class="title">Speed Sail</h4>
+                            <p>Google Chrome extension made using JavaScript, HTML, and CSS. Allows
+                                users to change the playback speed of videos and audio clips in the current
+                                tab. Hit a peak of 30+ weekly users. View the side bar on the left for links to this project.
+                            </p>
+                        </div>
+                        <div class="historyItem">
+                            <h4 class="title">Inhouse Bot</h4>
+                            <p>Discord bot made using Python. Helps with setting up video game matches
+                                with friends by making randomized teams and moving users to team voice
+                                channels. View the side bar on the left for links to this project.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="content" id="experience">
-                        <h3>Work experience</h3>
-                        <h4>Data Entery Clerk - TalentMap - Summer 2019</h4>
-                        <p>
-                            In this position I was responsible for recording the results from surveys
-                            conducted on paper and submitting them to a database. Additionally, I was
-                            required to detect and report incorrectly filled out surveys.
-                        </p>
-                        <h4>Volunteer - Hope Mission - Multiple occasions over a few years</h4>
-                        <p>
-                            In this position I worked with a team to serve food to the homeless, prepare
-                            food, unload shipments and clean the building.
-                        </p>
+                        <h3 class="subHeader">Work experience</h3>
+                        <div class="historyItem">
+                            <h4 class="title">Data Entery Clerk - TalentMap - Summer 2019</h4>
+                            <p>In this position I was responsible for recording the results from surveys
+                                conducted on paper and submitting them to a database. Additionally, I was
+                                required to detect and report incorrectly filled out surveys.
+                            </p>
+                        </div>
+                        <div class="historyItem">
+                            <h4 class="title">Volunteer - Hope Mission - Multiple occasions over a few years</h4>
+                            <p>In this position I worked with a team to serve food to the homeless, prepare
+                                food, unload shipments and clean the building.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="content" id="skills">
-                    <h2>What I Offer</h2>
-                    <ul>
+                    <h2 class="contentHeader">What I Offer</h2>
+                    <ul id="skillList">
                         <li>Experience with the following languages: Python, JavaScript, HTML, CSS, Java, C#, C, RISC-V Assembly and Common Lisp.</li>
                         <li>Experience with the following technologies: Git, Linux/Unix, SQL (SQLite), NoSQL (MongoDB, Cloud Firestore), Android Studio and Unity.</li>
                         <li>Knowledge of algorithms, data structures, software engineering principles, computer architecture/organization and database management/design.</li>
