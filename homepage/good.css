@@ -1,7 +1,13 @@
 
 
-
-/* https://stackoverflow.com/a/5057529 */
+/*  Link: https://stackoverflow.com/a/5057529
+    Author: phihag
+    Date: Feb 20, 2011 at 14:15
+    License: SA 2.5
+   
+    I used this post to figure out why I couldn't 
+    get rid of padding/margins.
+*/
 html, body {
     padding: 0px; 
     margin: 0px;
@@ -9,8 +15,6 @@ html, body {
     width: 100%;
     font-family: Georgia, serif;
 }
-
-
 
 
 h1, h2, h3, h4, h5 {
@@ -179,7 +183,6 @@ p {
     padding: 0%; 
     margin: 0% 5% 0% 5%;
 }
-
 
 a:link {
     color:rgb(48, 119, 167);
