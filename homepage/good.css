@@ -23,23 +23,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .contentHeader {
-    padding: 30px 0px 5px 0px; 
+    padding: 40px 0px 5px 0px; 
     margin: 0%;
     text-decoration: underline;
 }
 
 .subHeader {
-    padding: 20px 0px 10px 0px; 
+    padding: 0px 0px 10px 0px; 
     font-size: 1.30em;
     margin: 0%;
-    font-style: italic;
-    letter-spacing: 0.1em;
 }
 
 .title {
     padding: 0px 0px 5px 0px; 
     margin: 0%;
-
 }
 
 .historyItem {
@@ -47,6 +44,7 @@ h1, h2, h3, h4, h5 {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    text-align: center;
     
     
 }
@@ -55,10 +53,21 @@ h1, h2, h3, h4, h5 {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     list-style-position: inside;
-    
+    text-align: center;
+}
 
+
+.historyGroup {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+li {
+    padding-bottom: 8px;
 }
 
 #flexRows {
@@ -94,32 +103,51 @@ h1, h2, h3, h4, h5 {
 #sections {
     background-color: rgb(60, 60, 60);
     color: rgb(221, 220, 220);
-    text-align: center;
+    text-align: start;
     position: relative;
     flex: 7;
     overflow: auto;
 }
 
 .content {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
 
+}
+
+#aboutItem {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 0px;
 }
 
 #me {
     height: 200px;
     width: auto;
-    border-radius: 20px;
-    border: solid rgb(189, 189, 189);
+    border-radius: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    margin: 10px;
 }
 
+#bio {
+    text-align: left;
+    margin: 10px;
+    font-size: 125%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 50px;
+}
 
 p {
     font-family: Georgia, serif;
     display: inline-block;
     padding: 0%; 
     margin: 0% 5% 0% 5%;
-
 }
 
 
