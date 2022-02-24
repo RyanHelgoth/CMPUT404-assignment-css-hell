@@ -91,7 +91,7 @@ li {
 }
 
 #sidebar {
-    flex: 1;
+    flex: 0;
     border: 2px solid rgb(189, 189, 189);
     border-width: 2px 2px 0px 0px;
     background-color: rgb(40, 40, 40);
@@ -105,7 +105,7 @@ li {
     color: rgb(221, 220, 220);
     text-align: start;
     position: relative;
-    flex: 7;
+    flex: 1;
     overflow: auto;
 }
 
@@ -124,6 +124,7 @@ li {
     text-align: center;
     justify-content: space-evenly;
     margin: 20px 0px 20px 0px;
+    overflow: hidden;
 }
 
 #me {
