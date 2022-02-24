@@ -22,6 +22,29 @@ h1, h2, h3, h4, h5 {
     margin: 0%;
 }
 
+#sideBarHeader {
+    padding: 28px 0px 0px 0px; 
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.sideBarSubHeader {
+    padding: 20px 0px 5px 0px; 
+    margin: 0%;
+}
+
+.sideBarTitle {
+    padding: 10px 0px 5px 0px; 
+    margin: 0%;
+}
+
+.sideBarList {
+    margin: 0%; 
+    padding: 0px 10px 10px 30px;
+    
+
+}
+
 .contentHeader {
     padding: 40px 0px 5px 0px; 
     margin: 0%;
@@ -53,7 +76,7 @@ h1, h2, h3, h4, h5 {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     padding: 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     list-style-position: inside;
     text-align: center;
 }
@@ -92,6 +115,7 @@ li {
 
 #sidebar {
     flex: 0;
+    padding: 0px 10px 0px 10px;
     border: 2px solid rgb(189, 189, 189);
     border-width: 2px 2px 0px 0px;
     background-color: rgb(40, 40, 40);
@@ -121,7 +145,6 @@ li {
     padding: 10px;
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: space-evenly;
     margin: 20px 0px 20px 0px;
     overflow: hidden;
@@ -136,12 +159,13 @@ li {
 }
 
 #bio {
-    text-align: left;
+    text-align: center;
     margin: 10px;
     font-size: 125%;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     padding: 50px;
+    min-height: 110px;
 }
 
 p {
