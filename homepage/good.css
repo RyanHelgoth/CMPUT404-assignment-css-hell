@@ -23,9 +23,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #sideBarHeader {
-    padding: 28px 0px 0px 0px; 
+    padding: 30px 0px 30px 0px; 
     margin: 0px;
-    text-decoration: underline;
 }
 
 .sideBarSubHeader {
@@ -43,6 +42,12 @@ h1, h2, h3, h4, h5 {
     padding: 0px 10px 10px 30px;
     
 
+}
+
+hr {
+    margin: 0%; 
+    padding: 0%;
+    border: 1px solid rgb(189, 189, 189);
 }
 
 .contentHeader {
